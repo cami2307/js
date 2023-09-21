@@ -1,0 +1,9 @@
+button {
+    border-radius: 20%;
+    color: rgb(255, 0, 0);
+    border-color: rgb(1, 51, 249);
+}
+h1{
+    color: blueviolet;
+    text-decoration: line-through;
+}
