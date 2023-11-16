@@ -1,0 +1,26 @@
+body {
+    background-color: #a99dfd;
+    font-family: 'Arial', sans-serif;
+    background: #abbf88; /* Añadir esta línea para establecer el fondo gris */
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(183, 118, 244);
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+.container {
+    margin-top: 50px;
+}
+#valor {
+    font-size: 48px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    color: rgb(75, 124, 161);
+}
+button {
+    margin-top: 20px;
+}
