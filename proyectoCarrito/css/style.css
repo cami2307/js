@@ -21,7 +21,7 @@ body {
 .libro-container {
     width: 48%;  /* Establece el ancho de cada contenedor */
     margin-bottom: 20px;
-    background-color: #fff;  /* Establece el color de fondo de cada contenedor */
+    background-color: #ffffff9f;  /* Establece el color de fondo de cada contenedor */
     padding: 15px;  /* Agrega relleno dentro de cada contenedor */
     border-radius: 8px;  /* Agrega esquinas redondeadas a cada contenedor */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Agrega una sombra sutil a cada contenedor */
@@ -44,7 +44,7 @@ button {
 
 button:hover {
     background-color: #4CAF50;  /* Cambia el color de fondo de los botones al pasar el mouse */
-    color: #fff;  /* Establece el color del texto de los botones al pasar el mouse */
+    color: #787978;  /* Establece el color del texto de los botones al pasar el mouse */
 }
 
 span {
@@ -57,7 +57,7 @@ span {
     color: #787978;  /* Establece el color de texto para el elemento de compra total */
 }
 h1 {
-    color: rgb(86, 247, 234); /* Establece el color de texto para los encabezados de nivel 1 */
+    color: rgb(211, 246, 71); /* Establece el color de texto para los encabezados de nivel 1 */
     font-size: 32px;             /* Establece el tamaño de la fuente para los encabezados de nivel 1 */
     font-weight: bold;           /* Establece el grosor de la fuente para los encabezados de nivel 1 */
     text-align: center;          /* Establece la alineación del texto para los encabezados de nivel 1 */

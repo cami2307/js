@@ -12,18 +12,18 @@ function incrementarLibro(index) {
     const totalElemento = document.getElementById(`total-${index}`);
 
     let cantidad = parseInt(cantidadElemento.innerHTML);
-    let precioLibro = libros[index].precio;
+    let precio = libros[index].precio;
 
     // Incrementar la cantidad
     cantidad += 1;
     cantidadElemento.innerHTML = cantidad;
 
     // Actualizar el total del libro
-    let totalLibro = cantidad * precioLibro;
+    let totalLibro = cantidad * precio;
     totalElemento.innerHTML = `${totalLibro.toFixed(2)}`;
 
     // Actualizar el total de la compra
-    totalCompra += precioLibro;
+    totalCompra += precio
     mostrarTotalCompra();
 }
 
