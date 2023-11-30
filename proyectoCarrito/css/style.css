@@ -16,6 +16,7 @@ body {
 .libros-container {
     display: flex;
     flex-wrap: wrap;  /* Permite que los elementos se envuelvan a la siguiente línea si no hay suficiente espacio */
+    background-image: url('img/HTML-y-CSS.jpg');
 }
 
 .libro-container {
