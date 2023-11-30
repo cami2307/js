@@ -1,17 +1,20 @@
 div#respuesta{
-    display: none;
+    display: none; /* Oculta el elemento con el id 'respuesta' */
 }
+
 .caja{
     width: 280px;
     height: 80px;
-    position: sticky;
-    top: 30px; left: 400px;
+    position: sticky; /* La caja se mantendrá en su posición relativa a la ventana al hacer scroll */
+    top: 30px; /* A 30px desde el borde superior */
+    left: 400px; /* A 400px desde el borde izquierdo */
 }
+
 h1{
-    color: #d187dddd;
-    text-decoration: line-through;
+    color: #d187dddd; /* Color del texto para las etiquetas <h1> */
+    text-decoration: line-through; /* Aplica una línea tachada al texto */
 }
 
 body {
-    background-color: #c7f9f7;
+    background-color: #c7f9f7; /* Color de fondo para todo el cuerpo del documento */
 }
